@@ -18,6 +18,6 @@ angular.module('project', ['ngRoute', 'firebase'])
                 redirectTo: '/'
             });
     })
-    .controller('ProjectController', function(projects) {
+    .controller('ProjectController', function() {
         var vm = this;
     });
